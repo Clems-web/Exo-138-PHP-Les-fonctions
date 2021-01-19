@@ -1,22 +1,23 @@
 <?php
 
 // Premiere ligne
-
-{
-    echo "Hello World!";
+function MaFonction() {
+    echo "Hello World! <br>";
 }
 
 //Deuxieme ligne
 
-
+MaFonction();
 
 //Troisieme ligne
 
 function maFonctionParam($fname, $lname) {
-    echo ;
+    echo $fname . " ";
+    return $lname;
 }
 
-
+$x = maFonctionParam("doe", "john");
+echo $x;
 
 
 
